@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF496C9E1AA4329D004162F9 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF496C9D1AA4329D004162F9 /* Accounts.framework */; };
+		DF496CA01AA432AE004162F9 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF496C9F1AA432AE004162F9 /* Social.framework */; };
 		DF4BE7111AA28CE8008D362E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4BE7101AA28CE8008D362E /* main.m */; };
 		DF4BE7141AA28CE8008D362E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4BE7131AA28CE8008D362E /* AppDelegate.m */; };
 		DF4BE7171AA28CE8008D362E /* MyTweet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF4BE7151AA28CE8008D362E /* MyTweet.xcdatamodeld */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF496C9D1AA4329D004162F9 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		DF496C9F1AA432AE004162F9 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		DF4BE70B1AA28CE8008D362E /* MyTweet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTweet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF4BE70F1AA28CE8008D362E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF4BE7101AA28CE8008D362E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -49,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF496CA01AA432AE004162F9 /* Social.framework in Frameworks */,
+				DF496C9E1AA4329D004162F9 /* Accounts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +71,8 @@
 		DF4BE7021AA28CE8008D362E = {
 			isa = PBXGroup;
 			children = (
+				DF496C9F1AA432AE004162F9 /* Social.framework */,
+				DF496C9D1AA4329D004162F9 /* Accounts.framework */,
 				DF4BE70D1AA28CE8008D362E /* MyTweet */,
 				DF4BE72A1AA28CE8008D362E /* MyTweetTests */,
 				DF4BE70C1AA28CE8008D362E /* Products */,
@@ -416,6 +424,7 @@
 				DF4BE7331AA28CE8008D362E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF4BE7341AA28CE8008D362E /* Build configuration list for PBXNativeTarget "MyTweetTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +433,7 @@
 				DF4BE7361AA28CE8008D362E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
